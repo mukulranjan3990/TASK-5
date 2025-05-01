@@ -13,14 +13,14 @@ menuIcon.addEventListener("click", () => {
 
 
 const images = [
-  "istanbul on the bosphorus turkey.jpeg",
-  "sweden city christmas.jpg",
-  "sonamarg jamu kasmir.jpg",
-  "zurih switzerland.jpg",
-  "evening-time.jpg",
-  "350855.jpg",
-  "colossem italy rome.jpg",
-  "new york city.jpg",
+  "imge/istanbul on the bosphorus turkey.jpeg",
+  "imge/sweden city christmas.jpg",
+  "imge/sonamarg jamu kasmir.jpg",
+  "imge/zurih switzerland.jpg",
+  "imge/evening-time.jpg",
+  "imge/350855.jpg",
+  "imge/colossem italy rome.jpg",
+  "imge/new york city.jpg",
 ];
 
 const paralist=[
@@ -40,7 +40,7 @@ const carouselContainer = document.getElementById("carouselContainer");
 const imageElement = document.getElementById("carouselImage");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
-carouselContainer.style.backgroundImage = "url('aurora finland.jpg')";
+carouselContainer.style.backgroundImage = "url('imge/aurora finland.jpg')";
 carouselContainer.style.backgroundSize = "cover";
 imgpara1.textContent = "aurora finland";
 carouselContainer.style.color = "white";
@@ -396,7 +396,7 @@ r10img2.style.textAlign = "center";
 r10img2.style.alignContent = "flex-end";
 
 const row3img1 = document.getElementById("row3img1"); 
-row3img1.style.backgroundImage = "url('pexels-julien-goettelmann-44396125-19453586.jpg')";
+row3img1.style.backgroundImage = "url('imge/pexels-julien-goettelmann-44396125-19453586.jpg')";
 row3img1.style.backgroundSize = "cover";
 row3img1.innerText = "Beautiful Nature";
 row3img1.style.color = "white";
@@ -407,7 +407,7 @@ row3img1.style.alignContent = "flex-end";
 
 
 const row5img2 = document.getElementById("row5img2");
-row5img2.style.backgroundImage = "url('Baros-Maldives.webp')";
+row5img2.style.backgroundImage = "url('imge/Baros-Maldives.webp')";
 row5img2.style.backgroundSize = "cover";
 row5img2.innerText = "Baros Maldives";
 row5img2.style.color = "white";
@@ -417,7 +417,7 @@ row5img2.style.textAlign = "center";
 row5img2.style.alignContent = "flex-end";
 
 const row6img1 = document.getElementById("row6img1");
-row6img1.style.backgroundImage = "url('maryland for young adults.jpg')";
+row6img1.style.backgroundImage = "url('imge/maryland for young adults.jpg')";
 row6img1.style.backgroundSize = "cover";
 row6img1.innerText = "Maryland for Young Adults";
 row6img1.style.color = "white";
@@ -429,7 +429,7 @@ row6img1.style.alignContent = "flex-end";
 
 
 const row7img3 = document.getElementById("row7img3");
-row7img3.style.backgroundImage = "url('hotel inc maldives.jpg')";
+row7img3.style.backgroundImage = "url('imge/hotel inc maldives.jpg')";
 row7img3.style.backgroundSize = "cover";
 row7img3.innerText = "Hotel Inc Maldives";
 row7img3.style.color = "white";
@@ -439,7 +439,7 @@ row7img3.style.textAlign = "center";
 row7img3.style.alignContent = "flex-end";
 
 const row10img2 = document.getElementById("row10img2");
-row10img2.style.backgroundImage = "url('mecon Georgia.jpeg')";
+row10img2.style.backgroundImage = "url('imge/mecon Georgia.jpeg')";
 row10img2.style.backgroundSize = "cover";
 row10img2.innerText = "Macon Georgia";
 row10img2.style.color = "white";
